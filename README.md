@@ -1,20 +1,29 @@
-# Simple E-Commerce Storefront
+# E-Commerce Storefront
 
-This project simulates a simple e-commerce storefront, handling product inventory, user shopping cart, and user preferences using JavaScript.
+This project simulates a basic e-commerce storefront using HTML, CSS, and JavaScript. The application includes functionality for managing product inventory and a shopping cart.
 
-## Files
-- `index.js`: Contains the JavaScript code for managing the product inventory and shopping cart.
+## Project Structure
 
-## Functionality
-- **Product Inventory**: List of products with attributes like ID, name, price, and stock quantity.
-- **Shopping Cart**: Functions to add and remove items, and calculate the total cost.
-- **User Preferences**: Simulates storing and retrieving the preferred shipping address and recently viewed products.
-- **Real-Time Updates**: Functions to update stock and notify promotions with a delay.
+- `index.html` - The main HTML file for the application.
+- `styles.css` - The CSS file containing the styles for the application.
+- `script.js` - The JavaScript file implementing the e-commerce logic.
 
-## Usage
-1. Ensure you have Node.js installed.
-2. Save the `index.js` file in your project directory.
-3. Open a terminal and navigate to the project directory.
-4. Run the script using the following command:
+## Features
+
+- **Product Management**: Displays a list of products with options to add them to the shopping cart.
+- **Shopping Cart**: Manages items in the cart, allowing users to add and remove products.
+- **Dynamic Updates**: Real-time updates for the cart and product stock.
+- **User Preferences**: Allows setting a shipping address and viewing recently viewed products.
+- **Promotions**: Simulates time-delayed notifications for promotions.
+
+## Getting Started
+
+### Prerequisites
+
+You need a modern web browser to run this application. No additional software is required.
+
+### Installation
+
+1. **Clone the Repository**:
    ```sh
-   node index.js
+   git clone https://github.com/your-username/ecommerce-storefront-js.git
